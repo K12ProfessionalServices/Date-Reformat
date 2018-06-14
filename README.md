@@ -8,7 +8,7 @@ var options = { year: "numeric", month: "short", day: "numeric" };
 
 Dates can be displayed in thousands of languages and formats. Learn more at the link below. 
 [https://www.w3.org/International/questions/qa-choosing-language-tags]
-(IANA Language Subtag Registry - the full list)[http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry]
+[http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry]
 The example below is set to "en-GB" for UK English. To change this just replace with the necessary subtag from the link above. 
 ```javascript
 theDates[b].innerHTML = thisDate.toLocaleDateString("en-GB", options);
